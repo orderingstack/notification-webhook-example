@@ -1,0 +1,24 @@
+{
+  "name": "notification-example",
+  "version": "1.0.0",
+  "description": "Example webhook for notification handling (Ordering Stack)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "OrderingStack",
+    "notifications",
+    "webhook"
+  ],
+  "author": "kolec",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}
